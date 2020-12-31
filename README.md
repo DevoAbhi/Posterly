@@ -1,10 +1,16 @@
 # Posterly
 
+#### Postly is a post app that lets you create, edit or delete posts.
+
+##### This is a MEAN stack app which helps me learn and deep dive more in to the baclend stuffs. Any contribution of any kind will be very useful.
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+You can also run `ng serve --open` or in short `ng s --o` to open the app automatically in browser.
 
 ## Code scaffolding
 
