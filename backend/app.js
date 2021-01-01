@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader(
-    "Access-Control-Allow-Header",
+    "Access-Control-Allow-Headers",
     "Origin, X-Requested-With, Content-Type, Accept"
   );
   res.setHeader(
@@ -26,7 +26,7 @@ app.post("/posts", (req, res, next) => {
   })
 })
 
-app.use("/posts",(req, res, next) => {
+app.get("/posts",(req, res, next) => {
   const posts = [
     {
       id: "87yw3u8",
